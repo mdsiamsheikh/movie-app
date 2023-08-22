@@ -26,12 +26,14 @@ const poster = ref(
     <div
       class="grid md:grid-cols-4 sm:grid-cols-1 justify-items-center bg-cyan-50"
     >
-      <MovieCard
-        :title="title"
-        :date="date"
-        :poster="poster"
-        :movieid="movieid"
-      />
+      <div v-for="n in 8" :key="n in 8">
+        <MovieCard
+          :movieid="movieid"
+          :title="title"
+          :date="date"
+          :poster="poster"
+        />
+      </div>
     </div>
   </div>
 </template>
