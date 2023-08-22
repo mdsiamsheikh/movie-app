@@ -1,4 +1,8 @@
-<script></script>
+<script setup>
+definePageMeta({
+  layout: "custom",
+});
+</script>
 
 <template>
   <div class="w-full max-w-md mx-auto mt-5">
