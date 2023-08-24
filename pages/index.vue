@@ -12,12 +12,16 @@ const searchMovie = (searchInput) => {
 };
 
 // fetch Movie
-const movieid = ref(123);
-const title = ref("Batman Brown City");
-const date = ref("20-01-2023");
-const poster = ref(
-  "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg"
-);
+const { data: movies, error } = await useFetch("/api/movies");
+
+// console.log(movies);
+
+// const movieid = ref(123);
+// const title = ref("Batman Brown City");
+// const date = ref("20-01-2023");
+// const poster = ref(
+//   "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+// );
 </script>
 
 <template>
@@ -26,12 +30,12 @@ const poster = ref(
     <div
       class="grid md:grid-cols-4 sm:grid-cols-1 justify-items-center bg-cyan-50"
     >
-      <div v-for="n in 8" :key="n in 8">
+      <div v-for="movie in movies.results" :key="movie.id">
         <MovieCard
-          :movieid="movieid"
-          :title="title"
-          :date="date"
-          :poster="poster"
+          :movieid="movie.id"
+          :title="movie.original_title"
+          :date="movie.release_date"
+          :poster="movie.poster_path"
         />
       </div>
     </div>
