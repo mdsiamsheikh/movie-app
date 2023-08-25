@@ -1,27 +1,30 @@
 <script setup>
+const movies = ref([]);
+
 // secure movie
 const searchError = ref(false);
-const searchMovie = (searchInput) => {
+const searchMovie = async (searchInput) => {
   console.log("Search Text: ", searchInput);
   if (searchInput === "") {
     searchError.value = true;
   }
   if (searchInput !== "") {
     searchError.value = false;
+
+    // Write Movie Search code
+    const { data, error } = await useFetch(
+      `/api/movies/search?searchInput=${searchInput}`
+    );
+
+    movies.value = data.value;
   }
 };
 
 // fetch Movie
-const { data: movies, error } = await useFetch("/api/movies");
-
+const { data, error } = await useFetch("/api/movies");
 // console.log(movies);
 
-// const movieid = ref(123);
-// const title = ref("Batman Brown City");
-// const date = ref("20-01-2023");
-// const poster = ref(
-//   "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg"
-// );
+movies.value = data.value;
 </script>
 
 <template>
