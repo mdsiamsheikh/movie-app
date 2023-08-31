@@ -16,7 +16,7 @@ defineProps(["searchError"]);
         <button
           class="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-r-full"
           type="submit"
-          @click="$emit('searchMovie', searchInput)"
+          @click.prevent="$emit('searchMovie', searchInput)"
         >
           Search
         </button>
