@@ -3,7 +3,7 @@
 <template>
   <div>
     <nav class="bg-cyan-900">
-      <div class="max-w-7xl mx-auto pl-2 sm:px-6 lg:px-8">
+      <div class="max-w-7xl px-1 mx-auto pl-2 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <NuxtLink
