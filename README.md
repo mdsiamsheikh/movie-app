@@ -5,4 +5,4 @@
 # Demo
 
 ##### Here's Working demo
-Developing a Movie-App web app using Vue.js and Nuxt.js, complete with secure themoviedb API Your use of Tailwind CSS grid, transform, and BEM convention for optimal UI design is commendable and contributes to the visually appealing and responsive experience of the app on various screen sizes.
+Developing  is a secure Movie-App web application developed using Vue.js and Nuxt.js. It seamlessly integrates with the themoviedb API, ensuring reliable movie information. With a responsive design and Tailwind CSS grid, Cinemate offers an optimal UI on various screens. The use of BEM convention enhances code clarity for an intuitive and visually appealing user experience.
