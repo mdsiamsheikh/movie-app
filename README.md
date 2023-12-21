@@ -8,7 +8,5 @@ Live version of this site: https://movie-app6.netlify.app
 
 ##### Here's Working demo
 
-https://github.com/mdsiamsheikh/movie-app/assets/97788837/b4c04f28-fbeb-43d0-8fbf-d714ca62a846
-
-
+https://github.com/mdsiamsheikh/movie-app/assets/97788837/4802d7d3-bb03-4ba4-93e5-4a1671b5bb9b
 
