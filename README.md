@@ -1,63 +1,12 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Movie-App
+Developing  is a secure Movie-App web application developed using Vue.js and Nuxt.js. It seamlessly integrates with the themoviedb API, ensuring reliable movie information. With a responsive design and TailwindCSS grid, Cinemate offers an optimal UI on various screens. The use of BEM convention enhances code clarity for an intuitive and visually appealing user experience.
 
-## Setup
+Live version of this site: https://movie-app6.netlify.app
 
-Make sure to install the dependencies:
+# Demo
 
-```bash
-# npm
-npm install
+##### Here's Working demo
 
-# pnpm
-pnpm install
+https://github.com/mdsiamsheikh/movie-app/assets/97788837/4802d7d3-bb03-4ba4-93e5-4a1671b5bb9b
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
