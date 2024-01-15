@@ -9,14 +9,6 @@
       />
     </div>
     <div class="md:w-1/2 p-8 shadow-md">
-      <p class="text-lg mb-2">
-        123 Main Street<br />
-        Bogura, Bangladesh 01235
-      </p>
-      <p class="text-lg mb-2">
-        Phone: 01315536640<br />
-        Email: mdsiamsheikh6640@gmail.com
-      </p>
       <form>
         <label for="name" class="block text-lg font-bold mb-2">Name</label>
         <input
