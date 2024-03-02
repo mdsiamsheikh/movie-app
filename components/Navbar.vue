@@ -5,14 +5,14 @@
     <div
       class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
     >
-      <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <NuxtLink to="/" class="flex items-center space-x-2 rtl:space-x-reverse">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrZ9AKRWSxh4v4fPLk9hgKnYls7wkHMrVDGQ&usqp=CAU"
-          class="h-8 w-8"
+          class="h-7 w-7"
           alt=""
         />
         <span
-          class="rounded-md font-medium text-2xl text-[#011A24] hover:text-cyan-700"
+          class="rounded-md font-medium text-xl text-[#011A24] hover:text-cyan-700"
           >Home</span
         >
       </NuxtLink>
