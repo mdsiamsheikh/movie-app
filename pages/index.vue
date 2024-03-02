@@ -31,7 +31,7 @@ movies.value = data.value;
   <div>
     <SearchBar @search-movie="searchMovie" :searchError="searchError" />
     <div
-      class="grid md:grid-cols-4 sm:grid-cols-1 justify-items-center bg-cyan-100"
+      class="grid md:grid-cols-5 w-[100%] h-[100%] sm:grid-cols-1 justify-items-center bg-[#111827]"
     >
       <div v-for="movie in movies.results" :key="movie.id">
         <MovieCard
