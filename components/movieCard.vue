@@ -3,23 +3,35 @@ defineProps(["movieid", "title", "date", "poster"]);
 </script>
 
 <template>
-  <div class="bg-cyan-50 rounded-lg shadow-md overflow-hidden m-4 px-2">
-    <div class="p-1 py-4">
-      <h3 class="font-semibold text-lg mb-2 text-center">{{ title }}</h3>
-      <div class="overflow-hidden mb-4">
+  <div class="bg-white rounded-lg shadow-md overflow-hidden m-2 px-1">
+    <div
+      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    >
+      <div class="overflow-hidden p-2">
         <img
           class="h-400 w-300 object-cover"
           :src="`https://image.tmdb.org/t/p/w300/` + poster"
           alt="Placeholder Image"
         />
       </div>
-      <p class="text-gray-500 text-sm mb-2 px-2">Release Date: {{ date }}</p>
-      <div class="mt-4 p-2 text-right">
-        <NuxtLink
-          :to="`movie/${movieid}`"
-          class="bg-rose-500 hover:bg-rose-600 text-white font-medium py-2 px-4 rounded"
-          >Get Details</NuxtLink
-        >
+      <div class="p-1">
+        <a href="#">
+          <h5
+            class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            {{ title }}
+          </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          Release Date: {{ date }}
+        </p>
+        <div class="mt-3 p-2 text-right">
+          <NuxtLink
+            :to="`movie/${movieid}`"
+            class="bg-rose-500 hover:bg-rose-600 text-white font-medium py-2 px-4 rounded"
+            >Get Details</NuxtLink
+          >
+        </div>
       </div>
     </div>
   </div>
