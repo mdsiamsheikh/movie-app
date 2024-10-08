@@ -12,7 +12,7 @@
           alt=""
         />
         <span
-          class="rounded-md font-medium text-xl text-[#011A24] hover:text-cyan-700"
+          class="rounded-md font-medium text-xl text-[#FFFF] hover:text-cyan-700"
           >Home</span
         >
       </NuxtLink>
@@ -20,17 +20,17 @@
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <NuxtLink
           to="/contact"
-          class="px-2 py-1 rounded-md font-medium text-xl text-[#011A24] hover:text-cyan-700"
+          class="px-2 py-1 rounded-md font-medium text-xl text-[#FFFF] hover:text-cyan-700"
           >Contact</NuxtLink
         >
         <NuxtLink
           to="/registration"
-          class="px-2 py-1 rounded-md font-medium text-xl text-[#011A24] hover:text-cyan-700"
+          class="px-2 py-1 rounded-md font-medium text-xl text-[#FFFF] hover:text-cyan-700"
           >Registration</NuxtLink
         >
         <NuxtLink
           to="/login"
-          class="px-2 py-1 rounded-md font-medium text-xl text-[#011A24] hover:text-cyan-700"
+          class="px-2 py-1 rounded-md font-medium text-xl text-[#FFFF] hover:text-cyan-700"
           >Login</NuxtLink
         >
       </div>

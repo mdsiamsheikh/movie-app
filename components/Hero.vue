@@ -2,7 +2,7 @@
   <section
     class="hero-section bg-cover bg-center"
     style="
-      background-image: url(https://a5.behance.net/9f2d3ac07072e1ff8c8ec686d59520798ebcdf4b/img/search/search-banner-image.jpeg);
+      background-image: url(https://img.freepik.com/free-vector/3d-realistic-cinema-film-strip-clapper-board-background_1017-38429.jpg?w=1380&t=st=1728367078~exp=1728367678~hmac=514866d10b3b2b3d895c84368df45f675e8618b2c7253c48235238136cd9a72b);
     "
   >
     <div class="container sm:mx-auto sm:p-32 p-8">
